@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get caode
-        uses: actions/download-artifacts@v5
+        uses: actions/download-artifact@v5
         with:
           name: ${{ inputs.artifacts-name }}
       - name: List files
